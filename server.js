@@ -10,7 +10,7 @@ const PROFIL = {
   telephone: '+221 77 000 00 00', 
   email: 'assanedibe99@gmail.com',
   adresse: 'Dakar, Sénégal',
-  site: 'https://votre-portfolio.vercel.app', // On mettra la vraie URL plus tard
+  site: 'https://assane-diba-portfolio.netlify.app',
   linkedin: 'https://linkedin.com/in/ton-profil',
   github: 'https://github.com/ton-profil'
 };
