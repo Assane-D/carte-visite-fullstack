@@ -7,7 +7,7 @@ const PROFIL = {
   prenom: 'Assane',
   nom: 'Diba',
   poste: 'Étudiant en Master Ingénierie Logicielle – UNCHK',
-  telephone: '+221 77 000 00 00', 
+  telephone: '+221 76 8484725', 
   email: 'assanedibe99@gmail.com',
   adresse: 'Dakar, Sénégal',
   site: 'https://assane-diba-portfolio.netlify.app',
