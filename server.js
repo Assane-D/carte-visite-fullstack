@@ -2,19 +2,17 @@ const express = require('express');
 const QRCode = require('qrcode');
 const app = express();
 
-// ⚠️ REMPLACE TES INFOS ICI (Téléphone, LinkedIn, GitHub)
 const PROFIL = {
   prenom: 'Assane',
-  nom: 'Diba',
-  poste: 'Étudiant en Master Ingénierie Logicielle – UNCHK',
-  telephone: '+221 76 8484725', 
+  nom: 'Dibe',
+  poste: 'Étudiant en Double Master : Ingénierie Logicielle (UNCHK) & Data Science (UIDT)',
+  telephone: '+221 76 848 47 25', 
   email: 'assanedibe99@gmail.com',
-  adresse: 'Dakar, Sénégal',
+  adresse: 'Rufisque, Dakar, Sénégal',
   site: 'https://assane-diba-portfolio.netlify.app',
-  linkedin: 'https://linkedin.com/in/ton-profil',
-  github: 'https://github.com/ton-profil'
+  linkedin: 'https://www.linkedin.com/in/assane-dibe-237061255/',
+  github: 'https://github.com/Assane-D'
 };
-
 // Fonction pour générer la carte de contact (vCard)
 function construireVCard(p) {
   return [
